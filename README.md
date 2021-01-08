@@ -2,5 +2,5 @@
 
 # demo https://jeamshiv.github.io/studyhub.io
 
-# with mordern ui design.
+# with modern ui design.
  
