@@ -193,24 +193,28 @@
                 <h2 class="text-center">GENERAL ENQUIRY</h2>
                 <div class="section-devider"></div>
                 <p> We are here listening you, We will get in touch with you as soon as possible. We try to response our clients within 24 Hours.</p>
-                <form method="POST" role="form">
+                <form method="GET" role="form" action="http://jeamshiv.epizy.com/contact/contact.php">
                     <legend>Fill below information</legend>
                 
                     <div class="form-group">
-                        <input type="text" class="form-control" id="" placeholder="Your Name">
+                        <input type="text" name="name" class="form-control" id="" placeholder="Your Name" required="">
                     </div>
                 
                     <div class="form-group">
-                        <input type="email" class="form-control" id="" placeholder="Your Email">
+                        <input type="email" name="email" class="form-control" id="" placeholder="Your Email" required="">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="number" name="phone" class="form-control" id="" placeholder="Your Phone" minlength="10" maxlength="10" required="">
                     </div>
                 
                     <div class="form-group">
                         <label for="Message">Message</label>
-                        <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+                        <textarea name="message" id="input" class="form-control" rows="3" required="required"></textarea>
                     </div>
                 
                     
-                    <div class="text-center"><button type="button" class="btn btn-default" style="width: 154px;" id="primary_button"> Submit </button></div>
+                    <div class="text-center"><button type="submit" class="btn btn-default" style="width: 154px;" id="primary_button"> Submit </button></div>
                 
                 </form>
             </div>
