@@ -302,7 +302,8 @@ body{
   #contact-us{margin-top: 40px;}
 
   #contact-us .row .col-sm-6 form .form-group input[type=text], 
-  #contact-us .row .col-sm-6 form .form-group input[type=email], 
+  #contact-us .row .col-sm-6 form .form-group input[type=email],
+   #contact-us .row .col-sm-6 form .form-group input[type=number],
   #contact-us .row .col-sm-6 form .form-group textarea{
       /* border: none; */
         outline: #EC5D10;
